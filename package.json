@@ -1,0 +1,28 @@
+{
+  "name": "rem-docs",
+  "version": "0.1.0",
+  "description": "Rem docs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "format": "lsla prettier \"*.json\" \"docs/**/*.{mts,js,vue,css}\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/rem-docs.git"
+  },
+  "keywords": [
+    "rem",
+    "rclone"
+  ],
+  "author": "surunzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liriliri/rem-docs/issues"
+  },
+  "homepage": "https://github.com/liriliri/rem-docs#readme",
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}

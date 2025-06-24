@@ -1,2 +1,6 @@
-# rem-docs
-Documentation for REM
+# rem.liriliri.io
+
+```bash
+npm i
+npm run dev
+```
