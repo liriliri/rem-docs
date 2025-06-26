@@ -1,16 +1,16 @@
 :root {
-  --vp-button-brand-bg: #007aff;
+  --vp-button-brand-bg: #60beef;
   --vp-button-brand-hover-bg: #004fa2;
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
     #000 30%,
-    #007aff
+    #60beef
   );
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
     #000 50%,
-    #007aff 50%
+    #60beef 50%
   );
   --vp-home-hero-image-filter: blur(40px);
   --vp-nav-logo-height: 48px;
@@ -21,17 +21,17 @@
 }
 
 .dark {
-  --vp-button-brand-bg: #036bdc;
+  --vp-button-brand-bg: #55a5ce;
   --vp-button-brand-hover-bg: #01448d;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
     #fff 30%,
-    #036bdc
+    #55a5ce
   );
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
     #fff 50%,
-    #036bdc 50%
+    #55a5ce 50%
   );
 }
 

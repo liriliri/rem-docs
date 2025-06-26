@@ -2,12 +2,12 @@
 layout: home
 
 title: REM
-titleTemplate: Rclone 桌面应用
+titleTemplate: Rclone Desktop App
 
 hero:
   name: "REM"
-  text: "Rclone 桌面应用"
-  tagline: REM 是一个基于 Rclone 的远程文件管理器。
+  text: "Rclone Desktop App"
+  tagline: REM is a desktop application based on Rclone. It allows you to browse, organize, and transfer files across your cloud storages effortlessly.
   actions:
     - theme: alt
       text: Windows
@@ -22,14 +22,14 @@ hero:
 features:
   - icon:
       src: /rocket.svg
-    title: 开箱即用 
-    details: 内置 Rclone，下载安装即可使用。
+    title: Easy to Install
+    details: Built-in Rclone, ready to use upon installation without any additional complicated operations.
   - icon:
       src: /tools.svg
-    title: 功能齐全
-    details: 支持上传下载、复制粘贴等操作。
+    title: Feature-rich
+    details: Supports upload, download, copy, paste, and other operations.
   - icon:
       src: /easy.svg
-    title: 简单易用
-    details: 全图形化界面，一键操作，不用输入任何命令。
+    title: Easy to Use
+    details: Graphical user interface, one-click operations, no need to input any commands.
 ---
