@@ -11,13 +11,13 @@ hero:
   actions:
     - theme: alt
       text: Windows
-      link: https://release.liriliri.io/REM-0.5.0-win-x64.exe
+      link: https://release.liriliri.io/rem/REM-0.5.0-win-x64.exe
     - theme: alt
       text: macOS Apple silicon
-      link: https://release.liriliri.io/REM-0.5.0-mac-arm64.dmg 
+      link: https://release.liriliri.io/rem/REM-0.5.0-mac-arm64.dmg 
     - theme: alt
       text: Linux
-      link: https://release.liriliri.io/REM-0.5.0-linux-x86_64.AppImage  
+      link: https://release.liriliri.io/rem/REM-0.5.0-linux-x86_64.AppImage  
   image:
     src: /screenshot.png
     alt: screenshot
