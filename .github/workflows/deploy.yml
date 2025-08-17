@@ -22,12 +22,12 @@ jobs:
       run: |
         npm i
         npm run build
-        mkdir -p ../../page/rem
-        cp -r dist/* ../../page/rem
+        mkdir -p ../../liriliri/rem
+        cp -r dist/* ../../liriliri/rem
     - uses: appleboy/scp-action@master
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        source: "page/rem/"
-        target: "/root/"
+        source: "liriliri/rem/"
+        target: "/var/www/"
