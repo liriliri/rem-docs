@@ -89,6 +89,13 @@ export default defineConfig({
       },
     },
   },
+  vite: {
+    resolve: {
+      alias: [
+        { find: '@share', replacement: path.resolve(__dirname, './share') },
+      ],
+    },
+  },
   head: [
     [
       'script',
