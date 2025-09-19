@@ -39,12 +39,12 @@ const features = [
   {
     title: 'Easy to Install',
     desc: 'Built-in Rclone, ready to use upon installation without any additional complicated operations.',
-    image: '/preview.png',
+    image: '/multiwindow.png',
   },
   {
     title: 'Feature-rich',
     desc: 'Supports upload, download, copy, paste, and other operations.',
-    image: '/multiwindow.png',
+    image: '/preview.png',
   },
   {
     title: 'Easy to Use',
