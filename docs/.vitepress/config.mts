@@ -1,6 +1,13 @@
 import { defineConfig } from 'vitepress'
 import * as fs from 'fs'
 import * as path from 'path'
+import {
+  kofi,
+  wechatpay,
+  logo,
+  shareAlias,
+  googleAnalytics,
+} from './share/config.mjs'
 
 const editLinkPattern =
   'https://github.com/liriliri/rem-docs/edit/master/docs/:path'
@@ -39,24 +46,10 @@ export default defineConfig({
         },
       },
     },
-    logo: {
-      src: '/logo.png',
-      width: 48,
-      height: 48,
-    },
+    logo,
     socialLinks: [
-      {
-        icon: {
-          svg: icon('kofi'),
-        },
-        link: 'https://ko-fi.com/surunzi',
-      },
-      {
-        icon: {
-          svg: icon('wechatpay'),
-        },
-        link: 'https://surunzi.com/wechatpay.html',
-      },
+      kofi,
+      wechatpay,
       {
         icon: 'github',
         link: 'https://github.com/liriliri/rem',
@@ -91,26 +84,8 @@ export default defineConfig({
   },
   vite: {
     resolve: {
-      alias: [
-        { find: '@share', replacement: path.resolve(__dirname, './share') },
-      ],
+      alias: [shareAlias],
     },
   },
-  head: [
-    [
-      'script',
-      {
-        async: '',
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-D6N7TDQ4DS',
-      },
-    ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-D6N7TDQ4DS');`,
-    ],
-  ],
+  head: googleAnalytics('G-D6N7TDQ4DS'),
 })
