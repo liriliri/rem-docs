@@ -6,7 +6,7 @@ title: Rclone 桌面应用
 import AppHome from '@share/components/AppHome.vue'
 import code from '@theme/lib/code'
 
-const version = "1.2.0"
+const version = "1.3.0"
 
 const downloads = [
   {
