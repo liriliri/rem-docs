@@ -6,7 +6,7 @@ title: Rclone 桌面应用
 import AppHome from '@share/components/AppHome.vue'
 import code from '@theme/lib/code'
 
-const version = "1.4.0"
+const version = "1.5.0"
 
 const downloads = [
   {
@@ -28,10 +28,16 @@ const downloads = [
     href: `https://release.liriliri.io/rem/REM-${version}-mac-x64.dmg`,
   },
   {
-    key: 'linux',
-    name: 'Linux',
-    ext: '.AppImage',
-    href: `https://release.liriliri.io/rem/REM-${version}-linux-x86_64.AppImage`,
+    key: 'linux_deb',
+    name: 'Linux DEB',
+    ext: '.deb',
+    href: `https://release.liriliri.io/rem/REM-${version}-linux-amd64.deb`,
+  },
+  {
+    key: 'linux_rpm',
+    name: 'Linux RPM',
+    ext: '.rpm',
+    href: `https://release.liriliri.io/rem/REM-${version}-linux-x86_64.rpm`,
   }
 ]
 
