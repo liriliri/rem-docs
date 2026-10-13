@@ -38,6 +38,12 @@ const downloads = [
     name: 'Linux RPM',
     ext: '.rpm',
     href: `https://release.liriliri.io/rem/REM-${version}-linux-x86_64.rpm`,
+  },
+  {
+    key: 'linux_appimage',
+    name: 'Linux AppImage',
+    ext: '.AppImage',
+    href: `https://release.liriliri.io/rem/REM-${version}-linux-x86_64.AppImage`,
   }
 ]
 
